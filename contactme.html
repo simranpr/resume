@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Contact Person:</td>
+            <td>Simranpreet Kaur</td>
+        </tr>
+        <tr>
+            <td>Email Id:</td>
+            <td><a href="">simranpr5564@gmail.com</a></td>
+        </tr>
+        <tr>
+            <td>Contact No.:</td>
+            <td>9999999999</td>
+        </tr>
+        <tr>
+            <td>LinkedIn:</td>
+            <td>linkedin.com/in/simranpr-kaur/</td>
+        </tr>
+        <tr>
+            <td>Github:</td>
+            <td>github.com/simranpr</td>
+        </tr>
+    </table>
+    
+    <br>
+    <fieldset>
+        <legend>Fill up your details</legend>
+        <form action="mailto:raj2kaur21@gmail.com" method="post" enctype="text/plain">
+            <table>
+                <br>
+                <tr>
+                    <td>Your Name:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Your Email:</td>
+                    <td>
+                        <input type="email" name="yourEmail"
+                        pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Your Phone:</td>
+                    <td>
+                        <input type="tel" name="yourPhone" pattern="^(\+91[\-\s]?)?[0]?(91)?[789]\d{9}$">
+                    </td>
+                </tr>
+                <!--  
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio">Male &nbsp;<input type="radio">Female&nbsp;<input type="radio">Other
+                    </td>
+                </tr>
+                <tr>
+                    <td>Your DOB:</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Attach Files:</td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td>Range:</td>
+                    <td><input type="range" min="0" max="100" value="15"></td>
+                </tr>
+                -->
+                <tr>
+                    <td>Message:</td>
+                    <td><textarea rows="3" name="yourMessage"></textarea><br><br></td>
+                </tr>
+                <!--  
+                <tr>
+                    <td><input type="checkbox">Remember Me</td>
+                </tr>
+                -->
+            </table>
+
+            <br><br><input type="submit"><br><br>
+        </form>
+
+    </fieldset>
+
+</body>
+</html>
