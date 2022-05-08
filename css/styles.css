@@ -28,6 +28,9 @@ a {
     align-items: center;
     display: flex;
     justify-content: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .project_table {
     align-items: center;
