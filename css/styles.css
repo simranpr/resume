@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+    font-family: "Georgia", serif;
+    background-color:lightcyan; 
+    color: black;
+    height: 100%;
+    /* width: 100%; */
+}
+a {
+  /*text-decoration- to change underline style or just remove it*/
+  text-decoration: none;
+  color:#005555;
+}
+  
+  .container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  .container2 {
+    max-width: 50%;
+  }
+  .table_center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .project_table {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: white;
+    border-collapse: collapse;
+  }
+  .color_td {
+    padding: 2%;
+    border: white;
+    border-style:dotted;
+    border-collapse: collapse;
+    background-color: #d4f5f5;
+  }
+
+
+hr {
+    border-color: gray;
+    border-width: 5px;
+    border-style:none;
+    border-top-style: dotted;
+    /* Don't use background color property in hr */
+    width: 5%;
+}
+h1 {
+    font-family: cursive;
+    color: #005555;
+    text-shadow: black;
+}
+h3 {
+    font-weight: lighter;
+    background-color: #005555;
+    font-family: cursive;
+    /*font-family:Georgia, 'Times New Roman', Times, serif;*/
+    color: whitesmoke;
+}
+tr,thead {
+    text-align:  left;
+}
